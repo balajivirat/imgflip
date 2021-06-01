@@ -1,0 +1,400 @@
+/* header{
+    width: 100%;
+    background-color: #333333;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+span{
+    color: #dedede;
+}
+header div h1{
+    color: #bd4141;
+}
+.img{
+    height: 40px;
+}
+.btn{
+    padding: 8px;
+    background-color: #333333;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 5px 0px #8e8282;
+}
+.color{
+    color: #aaaaaa;
+}
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fun{
+    width: 80%;
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.padd{
+    border: 1px solid #b9a3a3;
+    padding: 7px;
+    width: 60px;
+    border-radius: 3px;
+}
+.orange{
+    background-color: #f70;
+    color: #fff;
+}
+.littlebtn{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-style: solid;
+}
+.bigdiv{
+    height: 1100vh;
+    width: 60%;
+    background-color: #fff;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.feedback{
+    background-color: #fff;
+    height: 20px;
+    padding: 8px;
+    position: fixed;
+    margin-right: 98%;
+    margin-top: 5%;
+    transform: rotate(90deg);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.make{
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 5%;
+}
+.popular{
+    height: 350px;
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 5%;
+}
+.leader{
+    height: 650px;
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 5%;
+}
+.surprise{
+    height: 510px;
+    width: 60%;
+    background-color: #fff;
+}
+.needs{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+    margin-top: 3%;
+}
+.image{
+    width: 100%;
+    margin-top: 4%;
+}
+.images{
+    width: 50%;
+    height: 80%;
+}
+.comments{
+    height: 250px;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaderboard{
+    height: 250px;
+    width: 32%;
+    background-color: #fff;
+    margin-top: 2%;
+}
+.rose{
+    height: 500px;
+    width: 60%;
+    background-color: #fff;
+}
+.imagerose{
+    width: 100%;
+    height: 90%;
+}
+.scroll{
+    height: 1250px;
+    width: 60%;
+    background-color: #fff;
+}
+.imagetruth{
+    width: 90%;
+    height: 98%;
+}
+.panik{
+    height: 700px;
+    width: 60%;
+    background-color: #fff;
+}
+.calm{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+}
+.energy{
+    height: 700px;
+    width: 60%;
+    background-color: #fff;
+}
+.logic{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+}
+.laugh{
+    height: 250px;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 250px;
+    width: 32%;
+    background-color: #fff;
+}
+.looks{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+}
+.die{
+    height: 500px;
+    width: 60%;
+    background-color: #fff;
+}
+.kid{
+    height: 250px;
+    width: 60%;
+    background-color: #fff;
+}
+.cartoon{
+    height: 250px;
+    width: 32%;
+    background-color: #fff;
+}
+.door{
+    height: 250px;
+    width: 60%;
+    background-color: #fff;
+}
+.lock{
+    height: 250px;
+    width: 32%;
+    background-color: #fff;
+}
+.gun{
+    height: 250px;
+    width: 60%;
+    background-color: #fff;
+}
+.shoot{
+    height: 250px;
+    width: 32%;
+    background-color: #fff;
+}
+.every{
+    height: 500px;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+}
+.what{
+    height: 500px;
+    width: 60%;
+    background-color: #fff;
+}
+.how{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+}
+.hold{
+    height: 500px;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up{
+    height: 500px;
+    width: 32%;
+    background-color: #fff;
+}
+footer{
+    height: 50vh;
+    background-color: #222;
+    color: rgb(146, 143, 143);
+    width: 100%;
+    margin-top: 5%;
+}
+.move{
+    margin-left: 11%;
+}
+.btndiv{
+    padding: 16px;
+}
+.icon{
+    width: 56%;
+}
+.funny{
+    padding: 15px;
+}
+.hot{
+    margin-top: 2%;
+    margin-right: 9%;
+}
+.new{
+    width: 80%;
+    height: 89%;
+}
+.noo{
+    padding: 10px;
+}
+.flexdisplay{
+    display: flex;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+.btn3{
+    padding: 8px;
+    color: #333333;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 5px 0px #8e8282;
+}
+.nooo{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.disflex{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3%;
+}
+.req{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.fb{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.create{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.web{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(65, 60, 60);
+}
+.pr{
+    padding-right: 15px;
+}
+.remove{
+    margin-right: 39px;
+    margin-top: 2%;
+}
+.chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 450px;
+    /* margin: 6rem auto 8.1rem auto; */
+    width: 329px;
+    /* background-image: url(/./assets/images/ironman.jpeg); */
+    background-color: #222222;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    color: blanchedalmond;
+    margin: 60px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 180px;
+    margin-top: 0px;
+  }
+  .contents{
+    display: flex;
+    flex-direction: column;
+    color: #dee8de;
+  }
+  .padding{
+    padding-top: 18px;
+  }
+  img{
+    height: 320px;
+    width: 240px;
+      border-radius: 10px;
+  }
