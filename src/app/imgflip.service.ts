@@ -7,7 +7,6 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ImgflipService {
-  data1: any;
 
   constructor(private http: HttpClient) { }
 

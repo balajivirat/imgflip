@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ImgflipService } from '../imgflip.service';
-import { Observable } from 'rxjs'
 
 @Component({
   selector: 'app-flip',
