@@ -266,12 +266,12 @@
 <div style="display: flex; flex-wrap: wrap;">
     <div *ngFor="let user of users$" style="display: flex; flex-wrap: wrap;" id="card">
       <div id="card-content">
-        <div id="card-title">
-          <h4><b>{{user.name}}</b></h4>
-        </div>
-          <div class="contents">
+        <!-- <div id="card-title"> -->
+          
+        <!-- </div> -->
             <img src="{{user.url}}">
-          </div>
+            <h4 id="card-title"><b>{{user.name}}</b></h4>
       </div>
+      
     </div>
   </div>
